@@ -1,0 +1,16 @@
+<!--Titulo y menu, este codigo es comun para todas-->
+<header class="header-design">
+    <div class="grid-header">
+        <div class="title-bar-item">
+            <img src="{{ site.logo | relative_url }}" width="44px" height="44px" alt="" />
+            <h2>{{ site.title | escape }}</h2> 
+        </div>    
+        <nav class="title-bar-item align-right">
+            <ul>
+                <li><a href="/info"><h4>Info</h4></a></li>
+                <li><a href="/contact"><h4>Contact</h4></a></li>
+            </ul>
+        </nav>
+        <div class="clear"></div><!--ES un corte para que no haya más capas qeu floten aunque entren-->
+    </div>
+</header>

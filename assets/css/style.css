@@ -1,0 +1,203 @@
+* { /* base de estilo*/
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;/* Esto es para que no aumente la capa pese a tener margenes (pading)*/
+    font-family: 'Times New Roman', Times, serif;/* orden de prioridad de las fuentes */
+}
+
+footer { /* Estili general del pie de pagina*/
+    color: #ffffffda;/* La palabra important le da preferencia cuando hay colisiones entre capas*/
+     background-color: rgba(134,84,84,1);
+}
+
+header { /* Estilo general de la cabecera*/
+    color: #ffffffda;
+    background-color: rgba(134,84,84,1);
+}
+
+/* a:link para acceder a los estilos de los atributos y cambiarlos*/
+a:link,a:visited { text-decoration: none; color: #865454; }
+a:active { text-decoration: none; }
+a:hover { color: #ffffffda; text-decoration: none; }
+
+p {
+    padding: 0 15px;
+}
+p.margen-vert {
+    padding: 15px;
+}
+
+h5 {
+    padding: 15px 15px;
+}
+.header-design,
+.main-design,
+.footer-design {
+    width: 100%; /* estilo para los colores difuminados*/
+    -webkit-box-shadow: inset 0px 0px 84px 16px rgba(134,84,84,1);
+    -moz-box-shadow: inset 0px 0px 84px 16px rgba(134,84,84,1);
+    box-shadow: inset 0px 0px 84px 16px rgba(134,84,84,1);
+}
+
+
+.grid-header{ /* centra el contenido de la cabecera y evita que pase del maximo fijado*/
+    width: 100%;
+    max-width: 1024px;
+    margin: auto;
+    padding: 10px 10px 10px 10px;
+}
+
+.title-bar-item{
+    float: left;/* elemento flotante a la izauierda*/
+    vertical-align: middle;
+    width: 50%;/* Tamaño del elemento*/
+}
+
+.title-bar-item img,/* Estilo para la imagenes y titulos dentro de la clase*/
+.title-bar-item h2{
+    display: inline;
+    vertical-align: middle;
+    font-size: 2em;
+}
+
+.title-bar-item ul{/* Estilo para la ul dentro de la clase*/
+    display: inline-block;
+    list-style: none;   
+}
+
+.title-bar-item li{ /* Estilo para li imagenes dentro de la clase*/
+    display: inline-block;
+    font-size: 1.2em;
+    padding-left: 20px;
+}
+/* Estilo para los link*/
+.title-bar-item a:link,a:visited { text-decoration: none; color: #ffffffda; }
+.title-bar-item a:active { text-decoration: none; }
+.title-bar-item a:hover { color: #b3b3b3; text-decoration: none; }
+
+.align-right{
+    text-align: right;
+    padding: 20px 0px 0px 0px;
+}
+
+.clear{/* Evita que los elementos sigan flotando*/
+    clear: both;
+}
+
+.grid-main {/* centra el contenido del cuerpo y evita que pase del maximo fijado*/
+    width: 100%;
+    max-width: 1024px;
+    margin: auto;
+}
+
+.main-design {
+    padding: 10px 10px 10px 10px;
+    background-color: #b3b3b3;
+}
+
+.section-title {
+    margin: 20px 0px 0px 0px;
+    padding: 0px 40px 0px 40px; 
+    font-size: 1em;
+    line-height: 1.8;
+    /* color: #865454; */
+}
+
+.section-title h2{/* Estilo para los h2 dentro de la clase*/
+    font-size: 1.5em;
+    line-height: 1.8;
+    color: #865454;
+}
+
+.section-post-list {
+    padding: 0px 30px;
+}
+
+.post-list ul {/* evita que se liste en formato lista*/
+    list-style: none;
+}
+
+.post-list li {/* Estilo para los li dentro de la clase*/
+    margin:40px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+    border-bottom-left-radius: 15px;
+    -webkit-box-shadow: 0px 0px 22px 12px rgba(134,84,84,1);/* Estilo para el difuminado*/
+    -moz-box-shadow: 0px 0px 22px 12px rgba(134,84,84,1);
+    box-shadow: 0px 0px 22px 12px rgba(134,84,84,1);
+      
+}
+
+.post-list li:hover {
+    border: 2px solid #b3b3b3;
+
+}
+
+.post-list-item img { /* Estilo para la imagenes dentro de la clase*/
+    width: 100%;
+    height: 100%;
+    border-top-right-radius: 50px;
+    border-top-left-radius: 15px;
+
+
+}
+
+.post-list-item h3 {/* Estilo para los h3 dentro de la clase*/
+    padding: 16px 40px 0px 20px;
+    color:#ffffffda;
+    font-size: 1.2em;
+    background-color: rgba(134,84,84,1);
+
+}
+
+.post-list-item p {/* Estilo para los parrafos dentro de la clase*/
+    padding: 16px 40px 40px 20px;
+    border-bottom-right-radius: 50px;
+    border-bottom-left-radius: 15px;
+    background-color: rgba(134,84,84,1);
+    color:#ffffffda;
+    font-size: 1.2em;
+}
+
+.post-design {
+    margin: 10px 10px 100px 10px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 100px;
+    border-bottom-left-radius: 15px;
+    background-color: #b3b3b3;
+    color:rgba(134,84,84,1);
+    font-size: 1.5em;
+}
+.post-design img { /* Estilo para la imagenes dentro de la clase*/
+    width: 100%;
+}
+.center-text{
+    border-bottom-right-radius: 70px;
+    text-align: center;
+}
+
+.grid-footer { /* centra el contenido del pie y evita que pase del maximo fijado*/
+    width: 100%;
+    max-width: 1024px;
+    margin: auto;
+    padding: 10px;
+}
+
+.footer-bar{
+    font-size: .9em;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+    border-bottom-left-radius: 50px; 
+    color: #fbfbfb;
+}
+
+.footer-bar a {
+    color: #fbfbfb;
+}
+
+.footer-bar a:hover {
+    color: #b3b3b3;
+}

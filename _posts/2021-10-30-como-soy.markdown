@@ -1,0 +1,28 @@
+---
+layout: post
+title:  "Comó soy"
+date:   2021-10-30 13:06:52 +0200
+media: /media/molino_Por_Dentro.jpg # ruta de la imagen que se desea mostrar
+assert: #testo inical del post
+---
+<section>
+    <article>
+        <div class="section-title"><h2>Cómo soy</h2></div>
+        <div class="section-design"> 
+            <div class="post-design">
+                <img src="{{ page.media | relative_url }}" alt="Foto del molino por dentro" /> <br> <!-- carga de imagen-->
+                <p>{{page.date}}</p>
+                <p class="margen-vert">Estoy construido de manera rectangular, orientado al sur este. Tengo dos plantas con grandes ventanales en vertical enrejados que dejan pasar ampliamente la luz solar.
+                <br>
+                Mis paredes son de piedra de pizarra de gran grosor, sobre pasan el metro. Cubiertas en la actualidad de cemento  exteriormente e interiormente, las citadas pizarras están unidas con argamasa de cal, todo marital de la zona. Esto me permite soportar  las vibraciones de mi maquinaria interna, además de las inclemencias metrológicas que aquí son extremas.El tejado es todo de madera y contiene una construcción típica en Castilla de la época en naves industriales hechas para estos fines.
+                <br> 
+                Soportan el peso del tejado los pendones, que son de madera de pino o de castaño. Es de resaltar que las esquinas están reforzadas con crucetas que  amarran el conjunto y soportan las vibraciones que desde las paredes le llegan al tejado por el movimiento de la maquinas que cobijan. Trasversalmente están los cuartones puestos a la molinera, esto con las tablas clavadas, le dan una gran fortaleza y soportan bien el peso de las tejas que antes eran de tipo Árabe y fueron sustituidas por teja Plana más eficaz.<br>
+                Después de ciento veinte años, conservo mi maderamen intacto.
+                <br>
+                Es necesario contaros que he sufrido un fuerte ataque de termintas pero que al haber sido curado a tiempo, durante un proceso de cinco años, me han permitido poder deleitar vuestra vista y mente.
+                <a href="/"><h4 class="center-text">volver al inicio</h4></a><!-- enlace a la pagina de inicio-->
+                </p>
+            </div>
+        </div>
+    </article>
+</section>

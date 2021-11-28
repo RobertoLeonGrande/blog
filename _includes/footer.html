@@ -1,0 +1,16 @@
+<!--Pie de pagina, este codigo es comun para todas-->
+<footer><!-- Estas etiquetas se anidan para poder estructurar el pie de pagina-->
+    <div class="footer-design">
+        <div class="grid-footer">
+            <div class="footer-bar">
+                {%- if site.contact -%}<!-- Codigo liquid de comprobacion-->
+                    <p> 
+                        {{ site.contact[0] }} <br><!--Impresion de los valores de la variable contact ubicada en el archivo de configuracion-->
+                        {{ site.contact[1] }} <a href="mailto:{{ site.contact[2] }}"> {{ site.contact[2] }}</a>
+                        
+                    </p>
+                {%- endif -%}
+            </div>
+        </div>
+    </div>
+</footer>

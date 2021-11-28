@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang='es' xml:lang='es'>
+
+    {%- include head.html -%}<!-- Llamada mediante liquid a head -->  
+    
+    <body>
+    
+        {%- include header.html -%} <!-- llamada mediante liquid a la barra del titulo -->
+            
+        <main class="main-design"> <!--Etiqueta para el contenido principal-->
+                {{content}}
+        </main>
+        
+        {%- include footer.html -%}  <!-- llamada para el pie de pagina-->    
+    
+    </body>
+</html>
