@@ -45,7 +45,7 @@ assert: Donde dejas a Frades con  esa máquina nueva, que molera mucho trigo con
                 Se cree que los cedazos tienen su origen en tres países fundamentalmente, Astro Húngaros, suizos y franceses fundamentalmente. Este es de origen francés, como mis piedras de molienda. 
                 Como entonces no existía el nailon, una tela de seda cumplía su misión de tamizar.
                 <br>
-                <a href="/"><h4 class="center-text">volver al inicio</h4></a><!-- enlace a la pagina de inicio-->
+                <a href="/blog"><h4 class="center-text">volver al inicio</h4></a><!-- enlace a la pagina de inicio-->
                 </p>
             </div>
         </div>

@@ -29,7 +29,7 @@ assert: Antonio Grande, sus recuerdos y su herencia. El molino se convierte en m
                 He visto algún caso de emocionarse y llegar a llorar entre gozo y nostalgia.
                 <br>
                 ¡Algo Precioso!
-                <a href="/"><h4 class="center-text">volver al inicio</h4></a><!-- enlace a la pagina de inicio-->
+                <a href="/blog"><h4 class="center-text">volver al inicio</h4></a><!-- enlace a la pagina de inicio-->
                 </p>
             </div>
         </div>

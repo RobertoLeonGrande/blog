@@ -21,7 +21,7 @@ assert: El molino de Lucio y Encarna abasteció de luz, grano y piensos al puebl
                 <br>
                 Es pues necesario retroceder en el tunel del tiempo y situarse en aquella época para darse cuenta de la importancia de mi nacimiento, junto con mis visionarios creadores.
                 La revolución industrial está llegando conmigo a estos parajes que circundan esta zona de Frades de la Sierra.</p>
-                <a href="/"><h4 class="center-text">volver al inicio</h4></a><!-- enlace a la pagina de inicio-->
+                <a href="/blog"><h4 class="center-text">volver al inicio</h4></a><!-- enlace a la pagina de inicio-->
             </div>
         </div>
     </article>

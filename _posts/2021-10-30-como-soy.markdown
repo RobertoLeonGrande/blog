@@ -20,7 +20,7 @@ assert: #testo inical del post
                 Después de ciento veinte años, conservo mi maderamen intacto.
                 <br>
                 Es necesario contaros que he sufrido un fuerte ataque de termintas pero que al haber sido curado a tiempo, durante un proceso de cinco años, me han permitido poder deleitar vuestra vista y mente.
-                <a href="/"><h4 class="center-text">volver al inicio</h4></a><!-- enlace a la pagina de inicio-->
+                <a href="/blog"><h4 class="center-text">volver al inicio</h4></a><!-- enlace a la pagina de inicio-->
                 </p>
             </div>
         </div>
