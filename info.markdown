@@ -15,7 +15,7 @@ permalink: /info
                 <img src="{{ page.media | relative_url }}" alt="Foto del Molino" /> <br> 
                 <p>{{page.date}}</p>
                 <p class="margen-vert">El molino es un museo de interes turistico de la provincia de Salamanca. La financiación es totalmente privada y su visita es gratuita. Para poder visitarlo tendrá que pedir <a href="/contact"> cita previa </a> con antelación. Es posible que si no lo hace no pueda recibir la atención necesaria y no pueda verlo.</p>
-                <a href="/"><h4 class="center-text">volver al inicio</h4></a>
+                <a href="/blog"><h4 class="center-text">volver al inicio</h4></a>
             </div>
         </div>
     </article>
