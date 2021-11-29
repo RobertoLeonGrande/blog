@@ -13,7 +13,7 @@ permalink: /contact
             <div class="post-design">
                 <img src="{{ page.media | relative_url }}" alt="Foto del molino por dentro" /> <br> 
                 <p>{{page.date}}</p>
-                <p class="margen-vert">Puede ponerse en contacto para concertar una visita guiada escribiento al correo <a href="mailto: molinodefrades@gmail.com"> molinodefrades@gmail.com </a>
+                <p class="margen-vert">Puede ponerse en contacto para concertar una visita guiada escribiendo al correo <a href="mailto: molinodefrades@gmail.com"> molinodefrades@gmail.com </a>
                 <a href="javascript:history.back()"><h4 class="center-text">volver al inicio</h4></a>
                 </p>
             </div>

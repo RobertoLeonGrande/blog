@@ -13,7 +13,7 @@ assert: Antonio Grande, sus recuerdos y su herencia. El molino se convierte en m
             <div class="post-design">
                 <img src="{{ page.media | relative_url }}" alt="Foto de Antonio Grande" /> <br><!-- carga de imagen-->
                 <p>{{page.date}}</p>
-                <p class="margen-vert">Desgraciadamente no tenemos documentación de mis progenitores, pero decía Lucio, uno de mis mejores benefactores, que eran una familia de ingenieros de minas</p>
+                <p class="margen-vert">Desgraciadamente no tenemos documentación de mis progenitores, pero decía Lucio, uno de mis mejores benefactores, que eran una familia de ingenieros de minas.</p>
                 <h5>1ª GENERACIÓN.</h5> 
                 <p>Lucio Sagrado Vega y su esposa me compran en fechas ya lejanas.
                 <br>
@@ -21,11 +21,11 @@ assert: Antonio Grande, sus recuerdos y su herencia. El molino se convierte en m
                 <h5>2ªGENERACIÓN.</h5>
                 <p>Continua la sociedad en su evolución y su hija Esther Sagrado Alonso y su esposo Antonio Grande García me trasforman en molino de piensos. Ya se sabe, evolucionar o morir.</p>
                 <h5>3ª GENERACIÓN.</h5> 
-                <p>Jubilados el matrimonio de Antonio Y Esther, el hijo mayor de estos, Antonio Grande Sagrado, con el aplauso de sus hermas Celestina y Encarnación, decide convertirme en una pieza de museo.
+                <p>Jubilados el matrimonio de Antonio y Esther, el hijo mayor de estos, Antonio Grande Sagrado, con el aplauso de sus hermas Celestina y Encarnación, decide convertirme en una pieza de museo.
                 <br>
-                Restaura mis viejas máquinas y muros, y hace de mí un libro abierto donde las nuevas generaciones aprendan y vean la evolución de la sociedad a la que alimente, así como todo el proceso desde entonces hasta hoy, tanto social como económico.
+                Restaura mis viejas máquinas y muros, y hace de mí un libro abierto donde las nuevas generaciones aprendan y vean la evolución de la sociedad a la que alimenté, así como todo el proceso desde entonces hasta hoy, tanto social como económico.
                 <br>
-                Me visitan grupos de lo más diverso. Para los jóvenes soy una caja de sorpresas y a Antonio le hacen preguntas de lo más dispares. Los más mayores, me ven como un recuerdo muy grato de su infancia.
+                Me visitan grupos de lo más diversos. Para los jóvenes soy una caja de sorpresas y a Antonio le hacen preguntas de lo más dispares. Los más mayores, me ven como un recuerdo muy grato de su infancia.
                 He visto algún caso de emocionarse y llegar a llorar entre gozo y nostalgia.
                 <br>
                 ¡Algo Precioso!
